@@ -10,6 +10,7 @@ pipeline {
          steps {
 	
 	     script: echo "Deploying the App"
+	     script: echo "changement" 
 		
             }
       }
