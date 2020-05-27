@@ -8,8 +8,7 @@ pipeline {
       }
        stage('deploy') {
          steps {
-	
-	     script: echo "Deploying the App with changes avec la maniere"
+		 sh './deploy.sh'
 	 
 		
             }
