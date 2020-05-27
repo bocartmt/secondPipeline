@@ -9,8 +9,8 @@ pipeline {
        stage('deploy') {
          steps {
 	
-	     script: echo "Deploying the App"
-	     script: echo "changement" 
+	     script: echo "Deploying the App with changes"
+	 
 		
             }
       }
