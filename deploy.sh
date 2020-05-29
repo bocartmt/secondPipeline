@@ -1,2 +1,2 @@
 #! /bin/bash
-scp -r -p ./index.html ec2-user@54.246.174.141:/var/www/html
+scp -r -p ./index.html ec2-user@3.249.245.22:/var/www/html
